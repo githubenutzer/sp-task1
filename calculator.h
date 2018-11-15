@@ -4,8 +4,9 @@
 class Calculator
 {
     public:
-        int Add (double, double);
-        int Sub (double, double);
+        double Add (double, double);
+        double Sub (double, double);
+        double Mul (double, double);
 };
 
 #endif//CALCULATOR_H
